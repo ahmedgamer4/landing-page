@@ -2,6 +2,7 @@ html,
 body{
     margin: 0;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -29,15 +30,48 @@ body{
     background-color: white;
 }
 
-header, .right{
-    font-family: serif;
+.top, .right{
     color: #f9faf8;
-    font-size: 24px;
     display: flex;
+}
+
+.top{
+    justify-content: space-around;
+    padding-top: 17px;
 }
 
 .right,
 .left{
-    font-family: sans-serif;
     color: #f9faf8;
+}
+
+.left{
+    font-size: 24px;
+}
+
+.right{
+    font-size: 16px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#button{
+    padding: 7px 17px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.down{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    display: flex;
 }
