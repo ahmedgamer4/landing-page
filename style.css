@@ -1,13 +1,43 @@
+html,
+body{
+    margin: 0;
+    height: 100%;
+}
 
 
 #one{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: #1f2937;
 }
 
 #two{
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: white;
+}
+
+#three{
+    width: 100%;
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+#four{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+header, .right{
+    font-family: serif;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+}
+
+.right,
+.left{
+    font-family: sans-serif;
+    color: #f9faf8;
 }
